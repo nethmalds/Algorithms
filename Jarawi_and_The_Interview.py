@@ -1,10 +1,9 @@
 def main():
-    S = input("Enter a String: ")
-    q = int(input("Enter how many queries that you need: "))
+    S = input()
+    q = int(input())
     queries = []
     for _ in range(q):
-        query = str(input("Enter the query string: "))
-        queries.append(query)
+        queries.append(input())
 
     results = longestSuffix(S,queries)
 
